@@ -19,7 +19,8 @@ end
 end 
 def using_delete(array, string)
   instructors = %w["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  instructors.delete(Steven)
+  no_offense_steven = instructors.delete(Steven)
+  instructors
 end
 def using_delete_at(array, num)
   famous_robots = ["Johnny 5", "R2D2", "Robocop"]
