@@ -19,7 +19,7 @@ end
 end 
 def using_delete(array, string)
   instructors = %w["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  no_offense_steven = instructors.delete(Steven)
+  no_offense_steven = instructors.delete(Steven,3,5)
   instructors
 end
 def using_delete_at(array, num)
