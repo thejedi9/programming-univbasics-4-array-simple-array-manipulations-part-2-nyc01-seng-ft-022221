@@ -18,7 +18,7 @@ end
   instruments.flatten 
 end 
 def using_delete(array, string)
-  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  instructors = %w["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   no_offense_steven = instructors.delete("Steven")
 end
 def using_delete_at(array, num)
