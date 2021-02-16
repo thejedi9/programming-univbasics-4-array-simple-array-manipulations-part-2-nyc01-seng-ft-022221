@@ -22,7 +22,10 @@ def using_delete(array, string)
   
   instructors.delete(Steven)
 end
-
+def using_delete_at(array, num)
+  
+  array.delete_at(num)
+end 
    
    
 
